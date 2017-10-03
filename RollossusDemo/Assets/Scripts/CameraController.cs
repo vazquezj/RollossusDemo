@@ -8,11 +8,11 @@ public class CameraController : MonoBehaviour {
 	Vector2 smoothV;
 	public float sensitivity;
 	public float smoothing;
-	GameObject character;
+	GameObject player;
 
 	void Start ()
 	{	
-		character = this.transform.parent.gameObject;
+		player = this.transform.parent.gameObject;
 	}
 		
 	void Update ()
